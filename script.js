@@ -33,12 +33,12 @@ console.log((parseInt("15px" + 10)));
 
 // console.log(answer);
 
-// if (answer == false) {
-//   alert("bye bye!!!");
-// } else {
-//   alert("Good!")
-// }
+if (answer == false) {
+  alert("bye bye!!!");
+} else {
+  alert("Good!")
+}
 
 let answer = prompt("Вам есть 18?", "Да");
 
-console.log(typeof(answer));
+console.log(typeof (answer));
